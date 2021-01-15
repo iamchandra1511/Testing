@@ -1,0 +1,37 @@
+testcases:
+
+  input: 
+          valid startdate and valid enddate
+  output:
+          returns valid report from specified startdate to enddate
+
+
+
+ input:
+         blank startdate and blank enddate
+ output: 
+        returns invalid report
+
+ input:
+         blank startdate and valid enddate
+ output:
+        returns invalid report
+input:
+          valid startdate and blank enddate
+ output:
+        returns invalid report
+
+ input:
+         startdate with special characters and enddate with special characters
+ output:
+        returns invalid report
+
+ input:
+         startdate with special characters and valid enddate 
+
+  output:
+        returns invalid report
+           
+
+
+    
